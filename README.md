@@ -20,7 +20,11 @@ cordova requirements
 cordova platform add android
 ```
 
-## 2. run this template
+## 2. run on browser
+```sh
+npm run dev
+```
+## 3. run on android
 ```sh
 npm run build
 cordova run android
