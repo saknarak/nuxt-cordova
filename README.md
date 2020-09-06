@@ -19,6 +19,10 @@ cordova requirements
 ```sh
 cordova platform add android
 ```
+- add plugins (if any)
+```sh
+cordova plugin add cordova-plugin-ble-central
+```
 
 ## 2. run on browser
 ```sh
