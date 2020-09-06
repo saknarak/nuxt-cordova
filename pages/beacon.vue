@@ -13,7 +13,7 @@
 
     <v-main>
       <h1 v-for="i in 100" :key="i">
-        Hello world
+        Beacon
       </h1>
     </v-main>
     <v-footer
@@ -37,6 +37,17 @@ export default {
   data() {
     return {
     }
+  },
+
+  computed: {
+    drawer: {
+      get() {
+        return this.$store.state.drawer
+      },
+      set(v) {
+        this.$store.commit('setDrawer', v)
+      },
+    },
   },
 }
 </script>
