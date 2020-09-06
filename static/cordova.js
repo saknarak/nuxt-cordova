@@ -16,7 +16,9 @@ var bleIdx = 0
 
 const bleMock = {
   enable(ok, error) {
-    ok()
+    if (typeof ok === 'function') {
+      ok()
+    }
   },
 
   scan(service, duration, success, error, mockOptions) {
@@ -69,7 +71,9 @@ const bleMock = {
 
   stopScan(success, error) {
     clearInterval(scanTimer)
-    success()
+    if (typeof success === 'function') {
+      success()
+    }
   },
 }
 
