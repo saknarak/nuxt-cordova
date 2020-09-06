@@ -55,7 +55,9 @@
   },
   "dependencies": {
     "async-mqtt": "^2.6.1",
-    "nuxt": "^2.14.4"
+    "axios": "^0.20.0",
+    "nuxt": "^2.14.4",
+    "vue-axios": "^2.1.5"
   },
   "directories": {
     "lib": "lib"

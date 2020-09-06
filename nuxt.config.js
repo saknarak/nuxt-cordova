@@ -66,6 +66,7 @@ module.exports = {
   plugins: [
     '~/plugins/cordova',
     '~/plugins/mqtt',
+    '~/plugins/axios',
   ],
 
   server: {
