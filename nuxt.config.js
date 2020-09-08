@@ -86,6 +86,13 @@ module.exports = {
       iconfont: 'md',
     },
   },
+
+  env: {
+    // config: config,
+    config: {
+      apiUrl: '/api',
+    },
+  },
 }
 
 if (process.env.NODE_ENV === 'production') {
