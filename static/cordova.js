@@ -1,4 +1,20 @@
 // /////////////////////////////////////////////////////////
+// DEVICE MOCKUP
+// /////////////////////////////////////////////////////////
+
+const deviceMock = {
+  available: true,
+  cordova: '9.0.0', // version of Cordova
+  model: 'Redmi 5A', // name of the device's model or product
+  platform: 'Android', // device's operating system name
+  uuid: '5febb8348439abcd', // device's Universally Unique Identifier
+  version: '8.1.0', // operating system version
+  manufacturer: 'Xiaomi', // device's manufacturer
+  isVirtual: false, // device is running on a simulator
+  serial: 'da8f074c7c99', // device hardware serial number
+}
+
+// /////////////////////////////////////////////////////////
 // BLE MOCKUP
 // /////////////////////////////////////////////////////////
 const bleDefaultList = [
@@ -112,7 +128,7 @@ const dialogsMock = {
 document.addEventListener('DOMContentLoaded', () => {
   setTimeout(() => {
     const event = new Event('deviceready')
-    // ble mocking
+    window.device = deviceMock
     window.ble = bleMock
     window.navigator.camera = cameraMock
     window.navigator.notification = dialogsMock

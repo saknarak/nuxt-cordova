@@ -34,6 +34,18 @@ npm run build
 cordova run android
 ```
 
+## 4. update id and name
+- edit `package.json`
+```
+  "name": "io.xenex.YOUR.ID",
+  "displayName": "DISPLAY NAME",
+```
+- remove/add platform again
+```sh
+cordova platform remove android
+cordova platform add android
+```
+
 # update package
 ```
 npm i nuxt async-mqtt
