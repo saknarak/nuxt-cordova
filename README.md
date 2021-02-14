@@ -48,6 +48,6 @@ cordova platform add android
 
 # update package
 ```
-npm i nuxt async-mqtt
-npm i -D @babel/core @babel/plugin-transform-runtime @babel/preset-env @babel/runtime @nuxtjs/proxy @nuxtjs/vuetify babel-eslint babel-jest cordova-android cordova-plugin-whitelist cross-env eslint eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-plugin-vue jest replace vue-jest webpack-obfuscator
+npm i async-mqtt axios nuxt vue-axios
+npm i -D npm i -D @babel/core @babel/plugin-transform-runtime @babel/preset-env @babel/runtime @nuxtjs/proxy @nuxtjs/vuetify babel-eslint babel-jest cordova-android cordova-plugin-whitelist cross-env eslint eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-plugin-vue javascript-obfuscator jest replace vue-jest webpack-obfuscator
 ```
